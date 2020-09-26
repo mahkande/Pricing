@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="component--prices">
+      <input type="checkbox" id="switch-price" checked />
+      <div class="title">
+        <h3>Choose your plan</h3>
+        <label for="switch-price">
+          <span>Montly</span>
+          <span>Yearly</span>
+        </label>
+      </div>
+      <div class="packages">
+        <div class="package">
+          <h6>Starter</h6>
+          <div class="price-info">
+            <div class="price">
+              <span monthly-price="$8.99" yearly-price="$18.99"></span> /
+              monthly
+            </div>
+            <div class="description">
+              Billed <span monthly-text="monthly" yearly-text="yearly"></span>
+            </div>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus voluptatem laboriosam 
+          </p>
+          <a href="#" class="button">Get started</a>
+        </div>
+        <div class="package">
+          <h6>Professional</h6>
+          <div class="price-info">
+            <div class="price">
+              <span monthly-price="$18.99" yearly-price="$38.99"></span>/
+              monthly
+            </div>
+            <div class="description">
+              Billed <span monthly-text="monthly" yearly-text="yearly"></span>
+            </div>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus voluptatem laboriosam laborum repudiandae libero facere
+            molestias voluptatum, fuga vel magnam.
+          </p>
+          <a href="#" class="button">Get started</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
